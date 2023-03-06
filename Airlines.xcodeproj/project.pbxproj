@@ -47,10 +47,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EAA6BE7F29B33B15003A14BD /* Model */ = {
+		EA3F683529B5B39000A45A47 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				EAA6BE8029B33B2F003A14BD /* AirlineManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EAA6BE7F29B33B15003A14BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				EAA6BE8229B33BBD003A14BD /* AirlineData.swift */,
 				EAA6BE8429B34D71003A14BD /* AirlineModel.swift */,
 			);
@@ -105,6 +112,7 @@
 				EAA6BE7F29B33B15003A14BD /* Model */,
 				EAD7A4EB29B31442008FD471 /* AppDelegate.swift */,
 				EAD7A4ED29B31442008FD471 /* SceneDelegate.swift */,
+				EA3F683529B5B39000A45A47 /* ViewModel */,
 				EAA6BE8629B35134003A14BD /* Controller */,
 				EAA6BE8929B4CF43003A14BD /* View */,
 				EAD7A4F429B31444008FD471 /* Assets.xcassets */,
